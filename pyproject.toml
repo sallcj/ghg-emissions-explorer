@@ -1,6 +1,6 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "ghg-emissions-explorer"
@@ -15,18 +15,18 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License"
 ]
-requires-python = "~=3.13.0"
+requires-python = ">=3.13"
+
+[tool.setuptools]
+# No importable package: this project is notebooks + data only.
+packages = []
 
 
 [tool.ruff]
 line-length = 99
-src = ["ghg_emissions_explorer"]
-include = ["pyproject.toml", "ghg_emissions_explorer/**/*.py"]
 
 [tool.ruff.lint]
 extend-select = ["I"]  # Add import sorting
 
 [tool.ruff.lint.isort]
-known-first-party = ["ghg_emissions_explorer"]
 force-sort-within-sections = true
-
