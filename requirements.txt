@@ -2,22 +2,14 @@
 hvplot
 ipython
 jupyterlab
-loguru
 matplotlib
-mkdocs
 notebook
 numpy
 openpyxl
 pandas
-pip
 plotly
 panel
-pytest
-python-dotenv
 ruff
 scikit-learn
-tqdm
-typer
 wbgapi
 world_bank_data
--e .

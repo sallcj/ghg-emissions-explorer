@@ -1,37 +1,21 @@
 # ghg-emissions-explorer
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
 Exploratory data analysis and dashboard for visualization GHG emissions of major countries
 
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make requirements`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering)
-│                         and a short `-` delimited description, e.g.
-│                         `1.0-data-exploration`.
-│
-├── pyproject.toml     <- Project metadata and configuration for tools like ruff
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-└── requirements.txt   <- The requirements file for reproducing the analysis environment.
-                          Install with `pip install -r requirements.txt`.
+├── LICENSE            <- MIT license.
+├── README.md          <- This file.
+├── requirements.txt   <- Python dependencies. Install with `pip install -r requirements.txt`.
+├── data               <- Downloaded and intermediate data files (not tracked by git).
+└── notebooks          <- Jupyter notebooks for analysis and the dashboard.
 ```
 
---------
+## Setup
 
+```
+python -m venv .venv
+.venv\Scripts\activate        # Windows (macOS/Linux: source .venv/bin/activate)
+pip install -r requirements.txt
+```
