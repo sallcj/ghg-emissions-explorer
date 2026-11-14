@@ -1,8 +1,14 @@
 # Python libraries
+bokeh
+cmcrameri
+holoviews
 hvplot
 ipython
+jupyter_bokeh
 jupyterlab
 matplotlib
+nbformat
+nbconvert
 notebook
 numpy
 openpyxl
