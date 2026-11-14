@@ -1,0 +1,12 @@
+# Render Blueprint: create the service with New + > Blueprint and pick this repo.
+services:
+  - type: web
+    name: ghg-explorer              # the URL becomes https://ghg-explorer.onrender.com
+    runtime: python
+    plan: free
+    branch: main                    # change if your notebook lives on another branch
+    buildCommand: pip install -r requirements.txt
+    startCommand: panel serve dashboard.ipynb --address 0.0.0.0 --port $PORT --allow-websocket-origin=ghg-explorer.onrender.com
+    envVars:
+      - key: PYTHON_VERSION         # the pinned packages were tested on Python 3.13
+        value: 3.14
