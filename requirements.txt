@@ -13,7 +13,6 @@ notebook
 numpy
 openpyxl
 pandas
-plotly
 panel
 ruff
 scikit-learn
