@@ -9,12 +9,14 @@ For a video walkthrough of the dashboard
 ## Project Organization
 
 ```
-├── LICENSE            <- MIT license.
-├── README.md          <- This file.
-├── requirements.txt   <- Python dependencies. Install with `pip install -r requirements.txt`.
-├── data               <- Downloaded and intermediate data files (not tracked by git).
-└── notebooks          <- Jupyter notebooks for analysis and the dashboard.
+├── LICENSE            <- MIT license
+├── README.md          <- This file
+├── requirements.txt   <- Python dependencies (install with `pip install -r requirements.txt`)
+├── data               <- Downloaded and intermediate data files (not tracked by git)
+└── dashboard.ipynb    <- The Jupyter notebook that explains and builds the dashboard
 ```
+
+For a step-by-step walkthrough of how the dashboard was built, see the `dashboard.ipynb` notebook. This notebook pieces together the components of the dashboard, which are then served to Render. 
 
 ## Setup
 
