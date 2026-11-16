@@ -4,7 +4,7 @@ Exploratory data analysis and dashboard for visualization GHG emissions of major
 
 The final dashboard was deployed as a web app using Render. See the dashboard at https://ghg-explorer-svpx.onrender.com/dashboard.
 
-For a video walkthrough of the dashboard
+For a video walkthrough of the dashboard, see [here](https://drive.google.com/file/d/1SJ-qL7bD_WcyK7chmAH0QQTNFNkhKEm7/view?usp=sharing).
 
 ## Project Organization
 
