@@ -1,10 +1,12 @@
 # ghg-emissions-explorer
 
-Exploratory data analysis and dashboard for visualization GHG emissions of major countries using the PRIMAP-hist dataset by Johannes Guetshow and coauthors. You can get the latest version of the PRIMAP-hist data (as of Sep 2026) on Zenodo at https://zenodo.org/records/22876287.
+Exploratory data analysis and dashboard for visualization GHG emissions of major countries using the PRIMAP-hist dataset by Johannes Guetshow and coauthors. The Jupyter notebook `dashboard.ipynb` walks through the process of building the interactive dashboard and visualizations using Panel, HoloViews, and Bokeh and packages together the components to be served as a web app.
 
-The final dashboard was deployed as a web app using Render. See the dashboard at https://ghg-explorer-svpx.onrender.com/dashboard.
+You can get the latest version of the PRIMAP-hist data (as of Sep 2026) on Zenodo at https://zenodo.org/records/22876287.
 
-For a video walkthrough of the dashboard, see [here](https://drive.google.com/file/d/1SJ-qL7bD_WcyK7chmAH0QQTNFNkhKEm7/view?usp=sharing).
+The final dashboard was deployed using Render. Check it out at https://ghg-explorer-svpx.onrender.com/dashboard.
+
+For a video demo, see [here](https://drive.google.com/file/d/1SJ-qL7bD_WcyK7chmAH0QQTNFNkhKEm7/view?usp=sharing).
 
 ## Project Organization
 
@@ -12,11 +14,11 @@ For a video walkthrough of the dashboard, see [here](https://drive.google.com/fi
 ├── LICENSE            <- MIT license
 ├── README.md          <- This file
 ├── requirements.txt   <- Python dependencies (install with `pip install -r requirements.txt`)
-├── data               <- Downloaded and intermediate data files (not tracked by git)
-└── dashboard.ipynb    <- The Jupyter notebook that explains and builds the dashboard
+├── data               <- Folder with downloaded and intermediate data files
+├── dashboard.ipynb    <- The Jupyter notebook that explains and builds the dashboard
+├── .venv              <- Virtual environment
+└── render.yaml        <- Configuration file used by Render
 ```
-
-For a step-by-step walkthrough of how the dashboard was built, see the `dashboard.ipynb` notebook. This notebook pieces together the components of the dashboard, which are then served to Render. 
 
 ## Setup
 
