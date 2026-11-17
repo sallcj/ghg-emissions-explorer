@@ -16,7 +16,6 @@ For a video demo, see [here](https://drive.google.com/file/d/1SJ-qL7bD_WcyK7chmA
 ├── requirements.txt   <- Python dependencies (install with `pip install -r requirements.txt`)
 ├── data               <- Folder with downloaded and intermediate data files
 ├── dashboard.ipynb    <- The Jupyter notebook that explains and builds the dashboard
-├── .venv              <- Virtual environment
 └── render.yaml        <- Configuration file used by Render
 ```
 
